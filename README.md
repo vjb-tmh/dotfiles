@@ -130,3 +130,45 @@ highlight lCursor guifg=#000000 guibg=#00ffff guisp=#00ffff gui=NONE ctermfg=NON
 highlight ColorColumn guisp=#9c4343 guifg=NONE guibg=#9c4343 gui=NONE ctermbg=131 cterm=NONE
 highlight CursorLineNr guisp=NONE guifg=#90ee90 guibg=NONE gui=NONE ctermfg=120 cterm=NONE
 ```
+
+-------- .minttyrc ---------
+```
+BellType=0
+BoldAsFont=yes
+FontHeight=12
+AllowBlinking=yes
+CursorType=block
+Transparency=low
+Rows=25
+Term=xterm-256color
+Font=Consolas
+Scrollbar=none
+ScrollMod=shift
+Columns=80
+OpaqueWhenFocused=yes
+ThemeFile=
+Locale=en_US
+Charset=UTF-8
+
+BackgroundColour=26,26,26
+ForegroundColour=211,208,200
+CursorColour=211,208,200
+Black=51,51,51
+BoldBlack=102,102,102
+Red=242,119,122
+BoldRed=242,119,122
+Green=153,204,153
+BoldGreen=153,204,153
+Yellow=235,189,91
+BoldYellow=235,189,91
+Blue=102,153,204
+BoldBlue=102,204,204
+Magenta=242,119,122
+BoldMagenta=242,119,122
+Cyan=102,204,204
+BoldCyan=102,204,204
+White=211,208,200
+BoldWhite=211,208,200
+
+Font=Courier New
+```
