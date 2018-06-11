@@ -18,6 +18,38 @@ endfunction
 au BufNewFile *.py 0r ~/.vim/py.skel | let IndentStyle = "python"
 ```
 
+--------- Python Skeleton ---------
+```
+#!/usr/bin/python
+"""
+Python script skeleton.
+"""
+import sys
+import argparse
+
+def main():
+    # ------ Parse arguments ------- #
+    '''
+    parser = argparse.ArgumentParser(description=__doc__)
+
+    parser.add_argument('first_arg')
+    parser.add_argument('--three', nargs=3)
+    parser.add_argument('--optional', nargs='?')
+    parser.add_argument('--all', nargs='*', dest='all')
+    parser.add_argument('--one-or-more', nargs='+')
+
+    args = parser.parse_args()
+
+    print(args)
+    print(args.first_arg)
+    '''
+    # ------------------------------ #
+    print('Start your code here.')
+
+if __name__ == "__main__":
+    sys.exit(main())
+```
+
 --------- Color Scheme ---------
 ```
 set background=dark
