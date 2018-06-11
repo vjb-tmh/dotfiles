@@ -18,7 +18,7 @@ endfunction
 au BufNewFile *.py 0r ~/.vim/py.skel | let IndentStyle = "python"
 ```
 
---------- Python Skeleton ---------
+--------- Python Skeleton (place in ~/.vim )---------
 ```
 #!/usr/bin/python
 """
