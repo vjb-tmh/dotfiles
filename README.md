@@ -13,6 +13,11 @@ function! InsertTabWrapper()
 endfunction
 ```
 
+--------- Build Skeletons ---------
+```
+au BufNewFile *.py 0r ~/.vim/py.skel | let IndentStyle = "python"
+```
+
 --------- Color Scheme ---------
 ```
 set background=dark
