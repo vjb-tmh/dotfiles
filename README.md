@@ -1,5 +1,6 @@
 
-# ------- Auto Complete ----------
+--------- Auto Complete ----------
+```
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 function! InsertTabWrapper()
@@ -10,5 +11,5 @@ function! InsertTabWrapper()
         return "\<c-p>"
     endif
 endfunction
-# ---------------------------------
+```
 
