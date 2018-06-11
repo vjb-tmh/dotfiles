@@ -50,7 +50,7 @@ if __name__ == "__main__":
     sys.exit(main())
 ```
 
---------- color scheme (.vimrc) ---------
+--------- Color Scheme (.vimrc) ---------
 ```
 set background=dark
 set t_Co=256
@@ -131,7 +131,7 @@ highlight ColorColumn guisp=#9c4343 guifg=NONE guibg=#9c4343 gui=NONE ctermbg=13
 highlight CursorLineNr guisp=NONE guifg=#90ee90 guibg=NONE gui=NONE ctermfg=120 cterm=NONE
 ```
 
--------- .minttyrc ---------
+-------- Color Scheme (.minttyrc) ---------
 ```
 BellType=0
 BoldAsFont=yes
