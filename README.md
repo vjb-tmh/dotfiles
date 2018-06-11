@@ -50,7 +50,7 @@ if __name__ == "__main__":
     sys.exit(main())
 ```
 
---------- vim Color Scheme ---------
+--------- color scheme (.vimrc) ---------
 ```
 set background=dark
 set t_Co=256
